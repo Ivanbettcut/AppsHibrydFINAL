@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="fStore">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flatlanders Store Tunned</title>
+    <link rel="icon" type="image/png" href="./images/bck/p-diamond.png">
+    <!--This is the angular JS libraries-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.26/angular-ui-router.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.28/stateEvents.js"></script>
+    <!--Angular JS libraries finish-->
+    <link rel="stylesheet" type="text/css"
+    href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./CSS/material-kit.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <navbar ></navbar>
+        <div ui-view>
+        </div>
+        <footerb></footerb>
+    </div>
+  
+
+<!--Angular JS FStore dependences-->
+<script src="./js/app.js"></script>
+<script src="./js/controllers/landingController.js"></script>
+<script src="./js/controllers/appController.js"></script>
+<script src="./js/controllers/productsController.js"></script>
+<script src="./js/controllers/productController.js"></script>
+
+
+<!--Angular JS Directives-->
+<script src="./js/directives/navbar.js"></script>
+<script src="./js/directives/footer.js"></script>
+<script src="./js/directives/gallery.js"></script>
+<script src="./js/directives/panels.js"></script>
+<script src="./js/directives/specsTab.js"></script>
+<script src="./js/directives/reviewsTab.js"></script>
+<script src="./js/directives/descriptionTab.js"></script>
+
+<!--Angular JS Filters-->
+<script src="./js/filters/range.js"></script>
+
+<!--         Core JS files          -->
+    <script src="./js/init/jquery.min.js"></script>
+    <script src="./js/init/popper.min.js"></script>
+    <script src="./js/init/bootstrap-material-design.min.js"></script>
+    <script src="./js/init/moment.min.js"></script>
+    <!--     Plugin for the time date picker-->
+    <script src="./js/init/bootstrap-datetimepicker.js"></script>
+    <!--      Plugin for the slider         -->
+    <script src="./js/init/nouislider.min.js"></script>
+    <script src="./js/init/material-kit.js"></script>
+</body>
+</html>
